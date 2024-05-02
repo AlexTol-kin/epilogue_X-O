@@ -1,0 +1,18 @@
+.button {
+	font-size: 25px;
+	top: 50px;
+	text-align: right;
+	width: 50px;
+	margin: auto;
+	width: max-content;
+	display: grid;
+	margin-top: 20px;
+	border-radius: 15px;
+	box-shadow: 0 5px 0px #676769;
+	transition: all 0.2s;
+	padding: 15px 20px;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(4, 69, 22);
+	color: rgb(90, 162, 207);
+}

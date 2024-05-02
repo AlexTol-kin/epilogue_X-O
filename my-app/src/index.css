@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.game-app {
+		margin: auto;
+		background-color: rgb(7, 41, 25);
+		width: max-content;
+		display: grid;
+		grid-template-columns: 120px 120px 120px;
+		grid-template-rows: 120px 120px 120px;
+	}
+
+	.game-field {
+		background: hsl(180, 29%, 19%);
+		font-size: 50px;
+		color: rgb(210, 205, 178);
+		border-radius: 7px;
+		transition: all 0.2s;
+		padding: 15px 20px;
+		cursor: pointer;
+		margin: 10px;
+		text-align: center;
+	}
+
+	.information-div {
+		width: 350px;
+		margin: auto;
+		margin-top: 50px;
+		background-color: rgb(7, 32, 24);
+	}
+
+	.information-span {
+		margin: auto;
+		width: 100px;
+		width: max-content;
+		display: grid;
+		color: rgb(90, 162, 207);
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+
+	.button-restart {
+		font-size: 25px;
+		text-align: right;
+		width: 50px;
+		margin: auto;
+		width: max-content;
+		display: grid;
+		margin-top: 20px;
+		border-radius: 15px;
+		box-shadow: 0 5px 0px #676769;
+		transition: all 0.2s;
+		padding: 15px 20px;
+		cursor: pointer;
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: rgb(4, 69, 22);
+		color: rgb(90, 162, 207);
+	}
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #2d2731;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
