@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/epilogue_X-O/static/css/main.fa736014.css",
+    "main.js": "/epilogue_X-O/static/js/main.7a27a9a0.js",
+    "index.html": "/epilogue_X-O/index.html",
+    "main.fa736014.css.map": "/epilogue_X-O/static/css/main.fa736014.css.map",
+    "main.7a27a9a0.js.map": "/epilogue_X-O/static/js/main.7a27a9a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa736014.css",
+    "static/js/main.7a27a9a0.js"
+  ]
+}
